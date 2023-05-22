@@ -1,4 +1,4 @@
-# penjelasan singkat python-search
+# Penjelasan python-search
 # Percobaan 10 Binary Search_Rotation, 
 Menemukan rotasi terkecil dalam sebuah list yang sudah dirotasi. Kita mulai dengan menentukan low (indeks pertama dalam daftar) dan high (indeks terakhir dalam daftar). Dalam loop while, kita menghitung indeks tengah (mid) dengan menggunakan operator floor division // pada penjumlahan low dan high. Kita membandingkan elemen yang berada di indeks mid dengan elemen yang berada di indeks high. Jika data[mid] lebih besar dari data[high], itu berarti titik rotasi berada di sebelah kanan mid. Oleh karena itu, kita perbarui low = mid + 1 untuk mencari di sebelah kanan mid. Jika data[mid] tidak lebih besar dari data[high], itu berarti titik rotasi berada di sebelah kiri mid atau mid itu sendiri adalah indeks rotasi terkecil. Dalam kasus ini, kita perbarui high = mid untuk mencari di sebelah kiri mid. Loop akan terus berlanjut selama low kurang dari high. Setelah loop selesai, nilai low akan menjadi indeks rotasi terkecil. Kita mengembalikan nilai low sebagai indeks rotasi terkecil dan mencetaknya.
 # Percobaan 11 Binary Search_Most Frequent, 
